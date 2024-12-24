@@ -16,11 +16,14 @@ char grade(int x){
     return ' ';
 }
 int main(){
+    cout <<"Press Enter 3 times to reveal your future.\n";
     cin.get();
     cin.get();
     cin.get();
     srand(time(0));
     int x=rand()%9+1;
-    cout << grade(x);
+    cout <<"You will get ";
+    cout << grade(x); 
+    cout << "in this 261102.";
     return 0;
 }
